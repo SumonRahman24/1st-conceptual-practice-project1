@@ -5,7 +5,6 @@
 }
 body {
   color: #fff;
-  background: green;
 }
 
 /* navigation */
@@ -55,6 +54,10 @@ nav {
 
 @media (width <= 640px) {
   .hero-banner {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-container {
     display: flex;
     flex-direction: column;
   }

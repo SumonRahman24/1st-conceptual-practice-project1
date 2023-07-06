@@ -51,6 +51,14 @@ nav {
 
   padding-top: 150px;
 }
+
+@media (width <= 640px) {
+  .hero-banner {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .hero-content h1 {
   font-size: 54px;
   font-weight: bold;
